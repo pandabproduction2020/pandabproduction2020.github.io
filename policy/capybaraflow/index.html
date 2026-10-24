@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Policies — Capybara Flow: Color Shooter</title>
+<meta name="description" content="Privacy Policy, Terms of Use and data deletion instructions for Capybara Flow: Color Shooter by pandab." />
+<link rel="canonical" href="https://pandabproduction2020.github.io/policy/capybaraflow/" />
+<meta name="theme-color" content="#2b1b4d" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A6%AB%3C/text%3E%3C/svg%3E" />
+<style>
+  :root {
+    --ink: #221a33;
+    --ink-soft: #5b5270;
+    --paper: #fbf8f3;
+    --card: #ffffff;
+    --purple: #6c3df4;
+    --purple-dark: #3a1f86;
+    --purple-tint: #f0eafd;
+    --peach: #ffb38a;
+    --mint: #7fe3c4;
+    --line: #e9e2f4;
+    --shadow: 0 18px 40px -24px rgba(43, 27, 77, .45);
+    --radius: 22px;
+    --max: 1080px;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; scroll-padding-top: 96px; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: ui-sans-serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--purple-dark); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+  a:hover { color: var(--purple); }
+
+  .wrap { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+
+  /* ---------- Header ---------- */
+  .site-header {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(251, 248, 243, .86);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line);
+  }
+  .site-header .wrap {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 24px; min-height: 68px;
+  }
+  .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; letter-spacing: -.02em; color: var(--ink); text-decoration: none; }
+  .brand-mark {
+    width: 38px; height: 38px; border-radius: 12px; display: grid; place-items: center;
+    background: linear-gradient(140deg, var(--purple), #a06bff);
+    color: #fff; font-size: 20px; box-shadow: 0 8px 18px -10px var(--purple);
+  }
+  .brand small { display: block; font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft); }
+
+  .nav { display: flex; gap: 6px; flex-wrap: wrap; }
+  .nav a {
+    font-size: 14px; font-weight: 700; color: var(--ink-soft); text-decoration: none;
+    padding: 8px 14px; border-radius: 999px;
+  }
+  .nav a:hover { background: var(--purple-tint); color: var(--purple-dark); }
+
+  /* ---------- Hero ---------- */
+  .hero { position: relative; overflow: hidden; padding: 72px 0 40px; }
+  .hero::before, .hero::after {
+    content: ""; position: absolute; border-radius: 50%; filter: blur(10px); opacity: .5; z-index: -1;
+  }
+  .hero::before { width: 420px; height: 420px; right: -120px; top: -160px; background: radial-gradient(circle, #dcd0ff, transparent 70%); }
+  .hero::after { width: 360px; height: 360px; left: -140px; top: 40px; background: radial-gradient(circle, #ffe6d6, transparent 70%); }
+
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--card); border: 1px solid var(--line); color: var(--purple-dark);
+    font-size: 12px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase;
+    padding: 8px 14px; border-radius: 999px; box-shadow: var(--shadow);
+  }
+  h1 { font-size: clamp(34px, 5vw, 54px); line-height: 1.1; letter-spacing: -.035em; margin: 20px 0 16px; }
+  h1 .accent { background: linear-gradient(100deg, var(--purple), #ff7a59 85%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .lede { max-width: 640px; color: var(--ink-soft); font-size: 19px; margin: 0; }
+  .meta-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+  .chip { background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px; font-size: 13px; font-weight: 600; color: var(--ink-soft); }
+  .chip strong { color: var(--ink); font-weight: 800; }
+
+  /* ---------- Quick cards ---------- */
+  .quick { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 12px 0 64px; }
+  .quick a {
+    display: block; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 22px; text-decoration: none; color: inherit; box-shadow: var(--shadow);
+    transition: transform .18s ease, box-shadow .18s ease;
+  }
+  .quick a:hover { transform: translateY(-3px); box-shadow: 0 24px 44px -24px rgba(43,27,77,.55); }
+  .quick .icon { font-size: 26px; margin-bottom: 10px; }
+  .quick b { display: block; font-size: 17px; letter-spacing: -.01em; margin-bottom: 4px; }
+  .quick span { color: var(--ink-soft); font-size: 14px; line-height: 1.5; }
+
+  /* ---------- Policy layout ---------- */
+  .policy {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 28px;
+    box-shadow: var(--shadow);
+    padding: clamp(24px, 4vw, 56px);
+    margin-bottom: 40px;
+  }
+  .policy + .policy { margin-top: 32px; }
+
+  .section-head { display: flex; align-items: flex-start; gap: 18px; margin-bottom: 8px; }
+  .section-num {
+    flex: none; width: 46px; height: 46px; border-radius: 14px; display: grid; place-items: center;
+    background: linear-gradient(140deg, var(--purple), #9a6bff); color: #fff; font-weight: 800; font-size: 18px;
+    box-shadow: 0 10px 20px -12px var(--purple);
+  }
+  h2 { font-size: clamp(24px, 3vw, 32px); letter-spacing: -.025em; line-height: 1.2; margin: 0; }
+  h2 + .sub { margin-top: 6px; color: var(--ink-soft); font-size: 15px; }
+  h3 { font-size: 19px; letter-spacing: -.01em; margin: 34px 0 8px; }
+  h4 { font-size: 16px; margin: 22px 0 6px; }
+
+  .policy p { margin: 12px 0; }
+  .muted { color: var(--ink-soft); }
+  .small { font-size: 14px; }
+
+  ul, ol { padding-left: 22px; margin: 12px 0; }
+  li { margin: 6px 0; }
+
+  .callout {
+    background: var(--purple-tint); border-left: 4px solid var(--purple);
+    border-radius: 0 14px 14px 0; padding: 16px 20px; margin: 22px 0;
+  }
+  .callout p { margin: 0; }
+
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 18px 0; }
+  .mini { background: var(--paper); border: 1px solid var(--line); border-radius: 16px; padding: 18px; }
+  .mini h4 { margin-top: 0; }
+
+  table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); background: var(--paper); }
+  tbody tr:last-child td { border-bottom: none; }
+
+  .contact-card {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px;
+    background: linear-gradient(120deg, #2b1b4d, #4b2a9c 55%, #6c3df4);
+    color: #fff; border-radius: var(--radius); padding: 26px 28px; margin-top: 26px;
+  }
+  .contact-card h3 { margin: 0 0 4px; color: #fff; }
+  .contact-card p { margin: 0; color: #d9cffa; font-size: 15px; }
+  .btn {
+    display: inline-block; background: #fff; color: var(--purple-dark); font-weight: 800; font-size: 15px;
+    text-decoration: none; padding: 12px 20px; border-radius: 999px; white-space: nowrap;
+  }
+  .btn:hover { background: #f3ecff; color: var(--purple-dark); }
+
+  /* ---------- Footer ---------- */
+  footer { border-top: 1px solid var(--line); padding: 34px 0 50px; color: var(--ink-soft); font-size: 14px; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; }
+  footer a { color: var(--ink-soft); }
+  .heart { color: #ff6b6b; }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 820px) {
+    .quick { grid-template-columns: 1fr; }
+    .cols { grid-template-columns: 1fr; }
+    .site-header .wrap { min-height: 60px; }
+    .nav { display: none; }
+  }
+  @media (max-width: 560px) {
+    body { font-size: 16px; }
+    .policy { border-radius: 20px; }
+    .section-num { width: 40px; height: 40px; font-size: 16px; }
+    th, td { padding: 10px; }
+  }
+
+  /* ---------- Print ---------- */
+  @media print {
+    body { background: #fff; font-size: 11pt; }
+    .site-header, .hero::before, .hero::after, .quick, .contact-card .btn, footer { display: none; }
+    .hero { padding: 0 0 12px; }
+    .policy { box-shadow: none; border: none; padding: 0; margin: 0 0 18px; }
+    .contact-card { background: #f4f1fa; color: #000; }
+    .contact-card h3, .contact-card p { color: #000; }
+    a { color: #000; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../../">
+      <span class="brand-mark" aria-hidden="true">🦫</span>
+      <span>pandab<small>Home</small></span>
+    </a>
+    <nav class="nav" aria-label="Policy sections">
+      <a href="#privacy">Privacy</a>
+      <a href="#terms">Terms</a>
+      <a href="#data">Data &amp; deletion</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow">Legal &amp; privacy</span>
+      <h1>Simple answers about<br /><span class="accent">your data.</span></h1>
+      <p class="lede">How <strong>Capybara Flow: Color Shooter</strong> handles information, what the game stores on your device, and how to reach us.</p>
+      <div class="meta-row">
+        <span class="chip"><strong>App:</strong> Capybara Flow: Color Shooter</span>
+        <span class="chip"><strong>Package:</strong> com.pandab.colorclash3d</span>
+        <span class="chip"><strong>Last updated:</strong> October 22, 2026</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="quick">
+      <a href="#privacy">
+        <div class="icon" aria-hidden="true">🛡️</div>
+        <b>Privacy Policy</b>
+        <span>What we collect, why, and who processes it.</span>
+      </a>
+      <a href="#terms">
+        <div class="icon" aria-hidden="true">📄</div>
+        <b>Terms of Use</b>
+        <span>The rules for playing, purchases and virtual items.</span>
+      </a>
+      <a href="#data">
+        <div class="icon" aria-hidden="true">🗑️</div>
+        <b>Data &amp; deletion</b>
+        <span>How to delete your data, and what happens then.</span>
+      </a>
+    </div>
+
+    <!-- ================= PRIVACY ================= -->
+    <article class="policy" id="privacy">
+      <div class="section-head">
+        <div class="section-num">1</div>
+        <div>
+          <h2>Privacy Policy</h2>
+          <p class="sub">Effective October 21, 2026 · applies to the Android release of Capybara Flow: Color Shooter.</p>
+        </div>
+      </div>
+
+      <p>This policy explains what information the game processes, how it is used, and the choices you have. We keep it short because the game is simple: there is no account and no sign-up.</p>
+
+      <h3>Who we are</h3>
+      <p>Capybara Flow: Color Shooter (“the Game”) is developed and published by <strong>pandab</strong> (“we”, “us”). For any privacy question, contact <a href="mailto:pandabproduction2020@gmail.com">pandabproduction2020@gmail.com</a>.</p>
+
+      <h3>Information the Game processes</h3>
+      <table>
+        <thead>
+          <tr><th>Category</th><th>Examples</th><th>Where it lives</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Game progress &amp; settings</strong></td>
+            <td>Level reached, coins, tools, unlocked items, sound/haptic preferences</td>
+            <td>Stored locally on your device</td>
+          </tr>
+          <tr>
+            <td><strong>Purchase information</strong></td>
+            <td>Product purchased (e.g. remove ads, coin pack), order status, entitlement</td>
+            <td>Processed by Google Play Billing; the Game only receives confirmation and product ID</td>
+          </tr>
+          <tr>
+            <td><strong>Analytics events</strong></td>
+            <td>App opens, level starts/completions, feature usage, approximate country, device model, app version</td>
+            <td>Collected by Firebase Analytics (Google)</td>
+          </tr>
+          <tr>
+            <td><strong>Advertising data</strong></td>
+            <td>Advertising ID, IP address (approximate location), device and ad interaction data</td>
+            <td>Collected by Google AdMob when ads are shown</td>
+          </tr>
+          <tr>
+            <td><strong>Support messages</strong></td>
+            <td>Anything you choose to include when you email us</td>
+            <td>Your email provider and our inbox</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p class="small muted">We do not ask for your name, address, phone number or contacts, and the Game does not access your photos, files, camera or microphone.</p>
+
+      <h3>How information is used</h3>
+      <ul>
+        <li>To run the Game and remember your progress and preferences.</li>
+        <li>To deliver and restore in-app purchases.</li>
+        <li>To understand which levels and features are fun or frustrating, so we can improve them.</li>
+        <li>To show ads that keep the Game free, and to limit how often the same ad appears.</li>
+        <li>To answer support requests and fix bugs.</li>
+        <li>To comply with law and enforce our Terms.</li>
+      </ul>
+
+      <h3>Third-party services</h3>
+      <p>The Game uses the following Google services. Each has its own privacy policy, linked below.</p>
+      <div class="cols">
+        <div class="mini">
+          <h4>Google AdMob</h4>
+          <p class="small muted">Interstitial and rewarded advertising. May use your advertising ID and approximate location to select and measure ads.</p>
+          <p class="small"><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a><br />
+          <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">How Google uses ad data</a></p>
+        </div>
+        <div class="mini">
+          <h4>Firebase Analytics &amp; Remote Config</h4>
+          <p class="small muted">Product analytics and remote configuration of game balance and events.</p>
+          <p class="small"><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Information</a></p>
+        </div>
+        <div class="mini">
+          <h4>Google Play Billing</h4>
+          <p class="small muted">Processes payments. We never see or store your card number or full billing details.</p>
+          <p class="small"><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></p>
+        </div>
+        <div class="mini">
+          <h4>Google Play services</h4>
+          <p class="small muted">Core Android services used for licensing, in-app review prompts and store updates.</p>
+          <p class="small"><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></p>
+        </div>
+      </div>
+
+      <h3>Advertising and your choices</h3>
+      <p>Ads are served by Google AdMob. Depending on your region, age group and settings, ads may be personalized using your advertising ID. Players under 13, or who choose not to say, receive non-personalized ads only. You can control this at any time:</p>
+      <ul>
+        <li><strong>Reset or delete your advertising ID:</strong> Android Settings → Google → Ads (or Settings → Privacy → Ads).</li>
+        <li><strong>Opt out of personalized ads:</strong> turn off “Personalized ads” in the same screen.</li>
+        <li><strong>Remove ads entirely:</strong> buy the “Remove Ads” product in the Game.</li>
+      </ul>
+      <p class="small muted">Where required by law (for example in the EEA or UK), a consent prompt is shown before ads are requested. If you decline personalized ads, the Game continues with non-personalized ads or no ads, and analytics collection is disabled. You can change your choice later from Settings → About → Privacy Policy or your device ad settings.</p>
+
+      <h3>Children</h3>
+      <p>The Game is intended for a mixed audience, including children and older players. We do not knowingly collect personal information from children. On first launch, a neutral age screen lets players choose an age group. Players under 13, or who choose not to say, are treated as children for advertising purposes: ads are non-personalized, ad content is limited to a G rating, and analytics collection is disabled. If you believe a child has provided information to us, email us and we will delete it. If you are a parent and see an ad that seems inappropriate, please report it to us.</p>
+
+      <h3>Data retention</h3>
+      <ul>
+        <li><strong>Local game data</strong> remains on your device until you clear the Game's storage or uninstall it.</li>
+        <li><strong>Analytics data</strong> is retained by Google/Firebase according to the retention period configured for the project (currently 14 months).</li>
+        <li><strong>Support emails</strong> are kept for as long as needed to resolve your request, then deleted or anonymized.</li>
+        <li><strong>Purchase records</strong> are retained by Google as required for tax and accounting law.</li>
+      </ul>
+
+      <h3>Security</h3>
+      <p>Data sent by the Game's third-party SDKs is transmitted over encrypted connections (HTTPS/TLS). No method of transmission or storage is 100% secure, but we choose reputable providers and limit what is collected to what the Game actually needs.</p>
+
+      <h3>International transfers</h3>
+      <p>Google processes data in data centers around the world. Where data leaves your country, Google relies on appropriate safeguards such as Standard Contractual Clauses. See Google's privacy policy for details.</p>
+
+      <h3>Your rights</h3>
+      <p>Depending on where you live (for example under GDPR, UK GDPR or CCPA/CPRA), you may have the right to access, correct, delete, restrict or object to processing of your personal data, and to opt out of the sale/sharing of personal information. We do not sell personal information. To exercise any right, email <a href="mailto:pandabproduction2020@gmail.com">pandabproduction2020@gmail.com</a>; we respond within 30 days. You may also lodge a complaint with your local data protection authority.</p>
+
+      <h3>Changes to this policy</h3>
+      <p>If we change how the Game handles data, we will update this page and change the date at the top. Material changes will be announced in the Game or on the store listing before they take effect.</p>
+    </article>
+
+    <!-- ================= TERMS ================= -->
+    <article class="policy" id="terms">
+      <div class="section-head">
+        <div class="section-num">2</div>
+        <div>
+          <h2>Terms of Use</h2>
+          <p class="sub">Effective October 21, 2026.</p>
+        </div>
+      </div>
+
+      <p>By downloading or playing Capybara Flow: Color Shooter, you agree to these Terms. If you do not agree, please do not use the Game.</p>
+
+      <h3>Licence</h3>
+      <p>We grant you a personal, non-exclusive, non-transferable, revocable licence to install and play the Game on devices you own or control, for personal, non-commercial entertainment. You may not copy, modify, distribute, sell, reverse-engineer or extract assets from the Game except where the law expressly allows it.</p>
+
+      <h3>Virtual items and purchases</h3>
+      <ul>
+        <li>Coins, tools, lives and other virtual items are a licence to use in-game content. They have no cash value and cannot be exchanged, transferred or refunded outside the rules of the store you bought them from.</li>
+        <li>Purchases are processed by Google Play. Refunds are handled by Google Play according to its refund policy; we cannot issue refunds directly.</li>
+        <li>“Remove Ads” removes forced interstitial ads. Optional rewarded ads remain available if you choose to watch them for a bonus.</li>
+        <li>We may adjust game balance, item prices or availability in future updates. Purchases already made are honoured as described at the time of purchase.</li>
+      </ul>
+
+      <div class="callout">
+        <p><strong>No gambling.</strong> The Game contains no real-money wagering. Virtual currency is only used to unlock in-game content.</p>
+      </div>
+
+      <h3>Acceptable use</h3>
+      <p>Do not:</p>
+      <ul>
+        <li>use cheats, automation, modified clients or exploits to gain an unfair advantage;</li>
+        <li>attempt to disrupt the Game, its servers or other players' experience;</li>
+        <li>use the Game for anything unlawful, or in violation of Google Play's terms.</li>
+      </ul>
+      <p>We may suspend or terminate access if these rules are broken, or remove content that infringes rights.</p>
+
+      <h3>Availability and changes</h3>
+      <p>The Game is provided “as is”. We may update, change or discontinue features, levels or the Game itself. We do not guarantee uninterrupted or error-free operation, and we may take the Game offline for maintenance.</p>
+
+      <h3>Limitation of liability</h3>
+      <p>To the maximum extent permitted by law, pandab is not liable for indirect, incidental, special or consequential damages, loss of data, loss of progress or loss of profits arising from your use of the Game. Nothing in these Terms limits rights you have under mandatory consumer law.</p>
+
+      <h3>Intellectual property</h3>
+      <p>All artwork, characters, music, code and trademarks in the Game belong to pandab or its licensors. These Terms do not transfer ownership of any of it.</p>
+
+      <h3>Governing law</h3>
+      <p>These Terms are governed by the laws applicable in the developer's country of residence, without affecting your mandatory consumer protections. Disputes should first be raised with us at the contact address below.</p>
+
+      <h3>Contact</h3>
+      <p>Questions about these Terms: <a href="mailto:pandabproduction2020@gmail.com">pandabproduction2020@gmail.com</a>.</p>
+    </article>
+
+    <!-- ================= DATA ================= -->
+    <article class="policy" id="data">
+      <div class="section-head">
+        <div class="section-num">3</div>
+        <div>
+          <h2>Data &amp; deletion</h2>
+          <p class="sub">How to see, reset or delete what the Game stores.</p>
+        </div>
+      </div>
+
+      <h3>Delete data stored on your device</h3>
+      <p>The Game keeps your progress and settings locally. To remove them:</p>
+      <ol>
+        <li>Open <strong>Android Settings → Apps → Capybara Flow: Color Shooter</strong>.</li>
+        <li>Tap <strong>Storage &amp; cache → Clear storage</strong> (this resets progress).</li>
+        <li>Or uninstall the Game, which removes all local data.</li>
+      </ol>
+      <p class="small muted">Clearing local data cannot be undone. Purchases remain tied to your Google account and can be restored in the Game.</p>
+
+      <h3>Request deletion of analytics or support data</h3>
+      <p>Email <a href="mailto:pandabproduction2020@gmail.com?subject=Data%20deletion%20request%20-%20Capybara%20Flow">pandabproduction2020@gmail.com</a> with the subject “Data deletion request”. Include your device model and, if possible, your approximate install date so we can locate the relevant records. We will confirm and delete what we control within 30 days. Data held by Google (Firebase, AdMob, Play Billing) is handled under Google's own retention rules; we will forward your request where required.</p>
+
+      <div class="callout">
+        <p><strong>What is deleted:</strong> analytics events associated with your app instance and any support emails we hold.<br />
+        <strong>What may remain:</strong> aggregated, non-identifying statistics, and purchase/tax records that Google must keep by law.</p>
+      </div>
+
+      <div class="contact-card" id="contact">
+        <div>
+          <h3>Still have a question?</h3>
+          <p>We usually reply within 2 business days.</p>
+        </div>
+        <a class="btn" href="mailto:pandabproduction2020@gmail.com">Email pandab</a>
+      </div>
+    </article>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 pandab · Capybara Flow: Color Shooter</span>
+    <span>Made with <span class="heart" aria-hidden="true">♥</span> and way too much coffee · <a href="../../">pandab home</a> · <a href="#top">Back to top</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
